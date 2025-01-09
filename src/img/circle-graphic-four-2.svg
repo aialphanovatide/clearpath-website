@@ -1,0 +1,17 @@
+<svg width="261" height="261" viewBox="0 0 261 261" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path style="mix-blend-mode:screen" d="M130.67 260.9C58.9999 260.9 0.689941 202.59 0.689941 130.92C0.689941 59.25 58.9999 0.930054 130.67 0.930054C202.34 0.930054 260.65 59.2401 260.65 130.91C260.65 202.58 202.34 260.89 130.67 260.89V260.9ZM130.67 2.93005C60.0999 2.93005 2.68994 60.3401 2.68994 130.91C2.68994 201.48 60.0999 258.89 130.67 258.89C201.24 258.89 258.65 201.48 258.65 130.91C258.65 60.3401 201.24 2.93005 130.67 2.93005Z" fill="url(#paint0_linear_229_415)"/>
+<defs>
+<linearGradient id="paint0_linear_229_415" x1="38.7999" y1="39.0501" x2="222.54" y2="222.78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8D46D1" stop-opacity="0"/>
+<stop offset="0.03" stop-color="#8D46D1" stop-opacity="0.01"/>
+<stop offset="0.11" stop-color="#8D46D1" stop-opacity="0.09"/>
+<stop offset="0.2" stop-color="#8D46D1" stop-opacity="0.2401"/>
+<stop offset="0.3" stop-color="#8D46D1" stop-opacity="0.4225"/>
+<stop offset="0.4" stop-color="#8D46D1" stop-opacity="0.6084"/>
+<stop offset="0.51" stop-color="#8D46D1" stop-opacity="0.7744"/>
+<stop offset="0.63" stop-color="#8D46D1" stop-opacity="0.9025"/>
+<stop offset="0.77" stop-color="#8D46D1" stop-opacity="0.9801"/>
+<stop offset="1" stop-color="#8D46D1"/>
+</linearGradient>
+</defs>
+</svg>

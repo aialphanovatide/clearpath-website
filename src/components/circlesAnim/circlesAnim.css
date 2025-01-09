@@ -1,0 +1,252 @@
+.circle-an-container{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.circle-an{
+    width: 400px;
+    height: 500px;
+    min-width: 400px;
+    min-height: 500px;
+    position: relative;
+    color: #ffffff;
+}
+
+/* top circle */
+.circle-1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background:linear-gradient(195deg, rgba(141, 70, 209, 0) 9.17%, #8D46D1 90.83%);
+background-blend-mode: screen;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 40px;
+}
+
+/* left circle */
+.circle-2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background:linear-gradient(0deg, rgba(141, 70, 209, 0) 0%, #8D46D1 100%);
+background-blend-mode: screen;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+/* right circle */
+.circle-3{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background:linear-gradient(300deg, rgba(141, 70, 209, 0) 13.39%, #8D46D1 86.61%);
+background-blend-mode: screen;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.mini-circle{
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 0rem;
+    height: 0rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.internal-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.vert-line{
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 1px;
+    background: #ffffff;
+    top: 210px;
+    left: 49.7%;
+    opacity: 0;
+}
+
+.horz-line{
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background: #ffffff;
+    top: 389px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.text-futura{
+    position: absolute;
+
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+    top: 390px;
+    right: 50%;
+    transform: translateX(50%);
+
+    opacity: 0;
+}
+
+.animate-c1{
+    animation: move-c1 2s ease forwards;
+}
+
+.animate-c2{
+    animation: move-c2 2s ease forwards;
+}
+
+.animate-c3{
+    animation: move-c3 2s ease forwards;
+}
+
+.animate-minic{
+    animation: move-minic 1s ease forwards 3s;
+}
+
+.animete-internal-circle{
+    animation: animate-internal 2s ease forwards 2s;
+}
+
+.animate-vline{
+    animation: animate-vline .5s ease forwards 3.5s;
+}
+.animate-hline{
+    animation: animate-hline .5s ease forwards 4s;
+}
+.animate-textfutura{
+    animation: animate-textfutura 1s ease forwards 4.5s;
+}
+
+
+
+@keyframes move-c1 {
+    0% {
+        top: 50%;
+    }
+    100% {
+        top: 25%;
+    }
+}
+@keyframes move-c2 {
+    0% {
+        left: 50%;
+    }
+    100% {
+        left: 30%;
+    }
+}
+@keyframes move-c3 {
+    0% {
+        left: 50%;
+    }
+    100% {
+        left: 70%;
+    }
+}
+@keyframes move-minic{
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+    100% {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+}
+
+@keyframes animate-internal{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animate-vline{
+    0% {
+        height: 1px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100% {
+        height: 180px;
+        opacity: 1;
+    }
+    
+}
+@keyframes animate-hline{
+    0% {
+        width: 2px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100% {
+        width: 227px;
+        opacity: 1;
+    }
+    
+}
+@keyframes animate-textfutura{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@media screen and (max-width: 880px){
+    .circle-an-container{
+        transform: scale(.7);
+        height: 350px;
+    }
+
+}

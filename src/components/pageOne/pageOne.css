@@ -1,0 +1,14 @@
+.resource-style{
+    max-width: max-content;
+    width: 100%;
+    height: min-content;
+    max-height: 600px;
+
+
+}
+.resource-logo-style{
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}

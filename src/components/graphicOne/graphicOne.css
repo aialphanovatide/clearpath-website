@@ -1,0 +1,119 @@
+.go-container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.go-animation{
+    width: 300px;  /* Ajusta según el tamaño necesario */
+    height: 500px;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+}
+
+
+.go-circle-1{
+    width: 180px;  /* Ajusta según el tamaño necesario */
+    height: 180px;
+    background: url(../../img/circle-go-1.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.go-circle-2{
+    width: 180px;  /* Ajusta según el tamaño necesario */
+    height: 180px;
+    background: url(../../img/circle-go-2.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.go-circle-3{
+    width: 180px;  /* Ajusta según el tamaño necesario */
+    height: 180px;
+    background: url(../../img/circle-go-3.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.internal-circle-go{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.go-circle-1.go-animate{
+    animation: circle-1-go 1s ease-in-out forwards 1s;
+}
+.go-circle-3.go-animate{
+    animation: circle-3-go 1s ease-in-out forwards;
+}
+
+.internal-circle-go.go-animate{
+    animation: internal-circle-go 1s ease-in-out forwards 2s;
+}
+
+
+@keyframes circle-1-go {
+    0% {
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+    100% {
+        top: 23%;
+
+    }
+}
+@keyframes circle-3-go {
+    0% {
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+    100% {
+        top: 77%;
+
+    }
+}
+
+@keyframes internal-circle-go {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .go-container{
+        margin-top: 50px;
+
+    }
+}
