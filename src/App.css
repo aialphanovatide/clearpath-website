@@ -12,7 +12,24 @@
   font-family: Nunito;
   font-weight: 400;
   font-size: 20px;
+  max-width: 550px;
+  margin-top: 40px;
+}
+
+.paragraph-page-faded {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 20px;
   max-width: 700px;
+  margin-top: 10px;
+}
+
+.paragraph-page-faded2 {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 700px;
+  margin-top: -130px;
 }
 
 .tittle-page {
@@ -59,6 +76,14 @@
     font-size: 30px;
   }
   .paragraph-page {
-    font-size: 14px;
+    font-size: 19px;
+  }
+  .paragraph-page-faded {
+    font-size: 19px;
+    margin-top: 0;
+  }
+  .paragraph-page-faded2 {
+    font-size: 19px;
+    margin-top: 0;
   }
 }

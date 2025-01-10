@@ -22,7 +22,7 @@ body {
 }
 
 .splide__pagination li {
-  background-color: #404040;
+  background-color: #d8d8d8;
 
   padding: 2px 2px 4px 2px;
 }
@@ -47,6 +47,7 @@ body {
 .splide__pagination li button:not(.is-active) {
   opacity: 0.5;
   transform: scale(0.7);
+  background-color: rgb(97, 97, 97);
 }
 
 .splide__arrows {
@@ -146,7 +147,7 @@ body {
 }
 
 .splide__arrow svg {
-  fill: white !important;
+  fill: grey !important;
   width: 2.2em;
   height: 2.2em;
 }
@@ -190,10 +191,28 @@ button:active {
     align-items: center;
     justify-content: start;
     gap: 30px;
-    background-image: url("../../img/menu_background.jpg");
+    background-color: white;
     background-size: cover;
     transition: 0.7s;
     transform: translateY(110vh);
+  }
+  .nav_item,
+  .nav_item_active {
+    font-size: 34px;
+    margin-top: 20px;
+  }
+
+  .page_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    padding-bottom: 50px;
+    padding: 0px 20px 50px 20px;
+    text-align: center;
   }
 
   .nav_toggle {
@@ -207,8 +226,9 @@ button:active {
 
   .nav_logo {
     margin: 15px;
-    width: 10%;
-    min-width: 70px;
+    margin-left: 30px;
+    width: 7%;
+    min-width: 55px;
     height: auto;
   }
 }

@@ -9,7 +9,7 @@ import PageFour from "../pageFour";
 import PageFive from "../pageFive";
 import PageSix from "../pageSix";
 import logo from "../../img/logo_desktop.svg";
-import logo_mobile from "../../img/Futura Capital Logo White.svg";
+import logo_mobile from "../../img/Clearpath Logo Black.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function HomePage() {
@@ -101,7 +101,7 @@ function HomePage() {
             </span>
           </div>
           <button className="nav_toggle" onClick={showNavbar}>
-            <MenuIcon sx={{ color: "white" }} />
+            <MenuIcon sx={{ color: "black", width: "60px", height: "50px" }} />
           </button>
         </div>
       </div>
