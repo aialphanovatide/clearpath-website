@@ -1,18 +1,19 @@
-import React from 'react'
-import './pageSix.css'
-import res_desk from '../../img/resource_desktop_6.svg'
-import res_mobile from '../../img/resource_mobile_6.svg'
+import React from "react";
+import "./pageSix.css";
+import res_1 from "../../img/resource1_page_6.gif";
+import Core from "../core";
+
 function PageSix() {
   return (
-    <div className='page_container'>
-        <p className='tittle-page'>Why Choose Capital Futura AG?</p>
-        <div className='choose-container'>
-          <img src={res_desk} alt="" className='img-page-six desktop'/>
-          <img src={res_mobile} alt="" className='img-page-six mobile'/>
-          
-        </div>
+    <div className="page_container">
+      <p className="tittle-page">Begin</p>
+      <p className="paragraph-page-bold">
+        Ready to move beyond the confines of conventional wisdom? Let’s define
+        new standards in strategy—together.
+      </p>
+      <Core image={res_1} tittle="" description="" extraStyle="-dif5" />
     </div>
-  )
+  );
 }
 
-export default PageSix
+export default PageSix;

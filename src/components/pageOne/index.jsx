@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../img/logo_page.svg";
 import "./pageOne.css";
 import CirclesAnim from "../circlesAnim";
-import res_1 from "../../img/resource1_page_5.gif";
+import res_1 from "../../img/resource1_landing.gif";
 import Core from "../core";
 
 const PageOne = ({ isActive }) => {

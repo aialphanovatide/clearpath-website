@@ -39,11 +39,6 @@ function PageThree() {
       </p>
 
       <Core image={res_1} tittle="" description="" extraStyle="-dif3" />
-
-      {/*
-        Apply our fade classes to the animated text. The text
-        shown is determined by the currentIndex.
-      */}
       <p className={`paragraph-page-faded2 ${fadeState}`}>
         {TEXTS[currentIndex]}
       </p>

@@ -9,27 +9,45 @@
 }
 
 .paragraph-page {
-  font-family: Nunito;
-  font-weight: 400;
+  font-family: Geologica;
+  font-weight: 300;
   font-size: 20px;
   max-width: 550px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .paragraph-page-faded {
-  font-family: Nunito;
-  font-weight: 400;
+  font-family: Geologica;
+  font-weight: 300;
   font-size: 20px;
   max-width: 700px;
   margin-top: 10px;
 }
 
 .paragraph-page-faded2 {
-  font-family: Nunito;
-  font-weight: 400;
+  font-family: Geologica;
+  font-weight: 300;
   font-size: 20px;
   max-width: 700px;
   margin-top: -130px;
+}
+
+.paragraph-page-faded2-rotated {
+  font-family: Geologica;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 700px;
+  margin-top: -130px;
+}
+
+.paragraph-page-bold {
+  font-family: Geologica;
+  font-weight: 500;
+  font-size: 25px;
+  max-width: 550px;
+  margin-top: 20px;
+  color: black;
+  line-height: 1.1;
 }
 
 .tittle-page {
@@ -50,7 +68,7 @@
 }
 
 .font-resources {
-  font-family: Nunito;
+  font-family: Geologica;
   font-weight: 400;
   font-size: 18px;
   max-width: 150px;
@@ -76,14 +94,22 @@
     font-size: 30px;
   }
   .paragraph-page {
-    font-size: 19px;
+    font-size: 18px;
   }
   .paragraph-page-faded {
-    font-size: 19px;
+    font-size: 17px;
     margin-top: 0;
   }
   .paragraph-page-faded2 {
-    font-size: 19px;
+    font-size: 17px;
     margin-top: 0;
+  }
+  .paragraph-page-faded2-rotated {
+    font-size: 17px;
+    margin-top: 50px;
+  }
+  .paragraph-page-bold {
+    font-size: 17px;
+    font-weight: 300;
   }
 }
